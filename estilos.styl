@@ -1,0 +1,35 @@
+@import 'nib'
+@import 'nib/gradients'
+@import 'nib/vendor'
+
+vendor-prefixes= o ms moz webkit papitas official
+
+body 
+	background linear-gradient(bottom left,white,red,50%blue,black)
+	.btn
+		background #2B4236
+		border 1px solid #11116F
+		color white
+		border-radius 5px
+		text-transform uppercase
+		&:hover
+			background #492501
+			text-transform uppercase
+		&.yellow
+		background #0E0C3F
+			&:hover
+				background blue
+		&.gray
+			background #331730
+		&:hover
+			background #381231
+
+.padre
+	background linear-gradient(top,white,black)
+	padding 200px
+	.hijo
+		font-size 100px
+	.logo
+		img 
+			heigt 100px
+			width 100px

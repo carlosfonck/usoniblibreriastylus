@@ -1,0 +1,1 @@
+emmet se instala desde el sublime text2 sirve para abreviar las etiquetas html. Preferences package control install package
